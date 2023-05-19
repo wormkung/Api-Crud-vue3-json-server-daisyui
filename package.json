@@ -1,0 +1,26 @@
+{
+  "name": "api-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "db:serve": "json-server --watch db.json --port=3001",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "daisyui": "^2.51.6",
+    "pinia": "^2.0.36",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "json-server": "^0.17.3",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.5"
+  }
+}
